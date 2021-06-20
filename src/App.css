@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-link {
@@ -36,3 +38,86 @@
     transform: rotate(360deg);
   }
 }
+
+div{
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+p{
+ font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+ float: left;
+align-items: left;
+transform: scaleY(.9);
+margin-right: 180px;
+margin-left: 30px;
+}
+.title1{
+  float: left;
+ align-items: left;
+ transform: scaleY(.9);
+ margin-right: 240px;
+ margin-left: 30px;
+ }
+.value{
+ font-family: 'Montserrat', sans-serif ;
+ font-weight: 700;
+text-align: center;
+align-items: left;
+border: 1px solid white;
+width: 120px;
+height: 30px;
+
+}
+
+.min{
+margin-left: 59px;
+transform: scaleY(.9);
+}
+
+.max{
+ 
+  padding-bottom:20px;
+  transform: scaleY(.9);
+  margin-left: 260px;
+} 
+.max1{
+  margin-left: 20px;
+  padding-bottom:20px;
+  transform: scaleY(.9);
+  margin-left: 330px;
+} 
+
+
+/* Slider Mui */
+
+.slider{
+  width: 350px !important;
+  margin-left: 60px;
+  align-items: center;
+}
+
+.MuiSlider-root{
+  color:white;
+ 
+}
+
+
+.MuiSlider-rail{
+  color:white;
+
+}
+
+.MuiSlider-thumb{
+  color:white;
+
+}
+
+.MuiSlider-track{
+  color:white;
+} 

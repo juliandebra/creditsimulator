@@ -1,0 +1,54 @@
+body{
+    font-family:  'Montserrat', 'sans-serif';
+ 
+}
+
+.cuotafija{
+    width: 380px;
+    height: 50px;
+    display: block;     
+    background-color: #052b4d;
+}
+
+.text{
+text-align: left;
+font-weight: 700;
+display: flex;
+position: fixed;
+margin-left: 6px;
+margin-top: 12px;
+transform: scale(.8,.8);
+}
+
+.resultado{
+text-align: right;
+font-weight: 700;
+margin-right: 120px;
+padding-top:9px;
+transform: scale(1.7,1.7);
+}
+
+
+.button1{
+    width: 250px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 7px;
+    background-color: #0fad95;
+    color: white;
+    border:none;
+}
+
+.button2{
+    width: 120px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 10px;
+    margin-left: 9px;
+    margin-top:7px;
+    background-color:#1f6394;
+    color: white;   
+    border: none;
+   
+    position: fixed;
+}
